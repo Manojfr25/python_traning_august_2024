@@ -6,6 +6,9 @@ for i in range(3):
    numbers.append(x)
 numbers.sort()
 print('Smallest number is: ',numbers[0])'''
+
+
+# Program to accept 3 distinct number & find smallest number 
 input_num1 = int(input('Enter first number'))
 input_num2 = int(input('Enter second number'))
 input_num3 = int(input('Enter third number'))
