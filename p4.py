@@ -8,10 +8,8 @@ for i in range(3):
 numbers.sort()
 print('Smallest number is: ',numbers[0])'''
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 4ce4d1bab137ad4b06c4541e2e2343cfbc23e1a8
+
 # Program to accept 3 distinct number & find smallest number 
 input_num1 = int(input('Enter first number'))
 input_num2 = int(input('Enter second number'))
@@ -20,10 +18,10 @@ if input_num1<input_num2 and input_num1<input_num3:
     print(input_num1 , 'is the smallest number')
 if input_num2<input_num3 and input_num2<input_num1:
     print(input_num2 , 'is the smallest number')
-<<<<<<< HEAD
+
 if input_num3<input_num2 and input_num3<input_num1:
     print(input_num3 , 'is the smallest number')
-=======
+
 elif input_num3<input_num2 and input_num3<input_num1:
     print(input_num3 , 'is the smallest number')
->>>>>>> 4ce4d1bab137ad4b06c4541e2e2343cfbc23e1a8
+
