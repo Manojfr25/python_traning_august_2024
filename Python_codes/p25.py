@@ -5,6 +5,7 @@ a, b = 0, 1
 if n==1:
    print(f"The 1th term of Fibonacci series is: 0")
 elif n==2:
+   print(f"The 1th term of Fibonacci series is: 0")
    print(f"The 2nd term of Fibonacci series is: 1")
 elif n>2:
    print(f"The 1st term of Fibonacci series is: 0")
