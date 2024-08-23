@@ -1,10 +1,10 @@
 # Program to Find odd placed digits in a number
 
 input_number=int(input('Enter a Number :'))
-num=str(input_number)
-odd_placed_num=''
-for i in range(len(num)+1):
-    if i % 2 == 0:
-        odd_placed_num+=num[i]
+odd_list=[]
+while input_number != 0:
+    digit = input_number % 10 # fetch last digit
+    input_number = input_number // 100 #remove last 2 digit
+    odd_list.append(digit)
 
-print('Odd placed digits in',num,'is',odd_placed_num)
+print('Odd placed digits in',input_number,'is',odd_list)
