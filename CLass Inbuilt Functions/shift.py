@@ -1,8 +1,8 @@
 class Number:
-    def _init_(self, value):
+    def __init__(self, value):
         self.value = value
 
-    def _lshift_(self, other):
+    def __lshift__(self, other):
         return Number(self.value << other)
 
 n = Number(10)
@@ -12,10 +12,10 @@ print(n2.value)
 
 
 class Number:
-    def _init_(self, value):
+    def __init__(self, value):
         self.value = value
 
-    def _rshift_(self, other):
+    def __rshift__(self, other):
         return Number(self.value >> other)
 
 r = Number(40)

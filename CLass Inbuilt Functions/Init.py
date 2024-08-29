@@ -1,8 +1,8 @@
 class Person:
-    def _init_(self, name, age):
+    def __init__(self, name, age):
         self.name = name
         self.age = age
 
-p = Person("Tejas", 19)
+p = Person("Tejas",19)
 print(p.name)
 print(p.age)

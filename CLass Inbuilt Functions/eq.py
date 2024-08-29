@@ -1,9 +1,9 @@
 class Person:
-    def _init_(self, name, age):
+    def __init__(self, name, age):
         self.name = name
         self.age = age
 
-    def _eq_(self, other):
+    def __eq__(self, other):
         return self.name == other.name and self.age == other.age
 
 p1 = Person("Tejas", 19)
